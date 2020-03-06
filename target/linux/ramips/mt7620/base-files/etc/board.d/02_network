@@ -155,6 +155,7 @@ ramips_setup_interfaces()
 			"1:lan" "2:lan" "3:lan" "4:lan" "5:wan" "0@eth0"
 		;;
 	lenovo,newifi-y1|\
+	xiaomi,miwifi-r3|\
 	xiaomi,miwifi-mini)
 		ucidef_add_switch "switch0" \
 			"0:lan:2" "1:lan:1" "4:wan" "6@eth0"
