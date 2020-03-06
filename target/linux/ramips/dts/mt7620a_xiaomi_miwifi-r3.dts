@@ -6,8 +6,8 @@
 #include <dt-bindings/input/input.h>
 
 / {
-	compatible = "poray,m3", "ralink,rt5350-soc";
-	model = "Poray M3";
+	compatible = "xiaomi,miwifi-r3", "ralink,mt7620a-soc";
+	model = "xiaomi_miwifi-r3";
 
 	gpio-leds {
 		compatible = "gpio-leds";
