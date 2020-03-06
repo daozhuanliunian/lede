@@ -971,6 +971,16 @@ define Device/xiaomi_miwifi-mini
 endef
 TARGET_DEVICES += xiaomi_miwifi-mini
 
+define Device/xiaomi_miwifi-r3
+  SOC := mt7620a
+  IMAGE_SIZE := 15872k
+  DEVICE_VENDOR := Xiaomi
+  DEVICE_MODEL := MiWiFi-r3
+  DEVICE_PACKAGES := kmod-mt76x2 kmod-usb2 kmod-usb-ohci
+  SUPPORTED_DEVICES += miwifi-r3
+endef
+TARGET_DEVICES += xiaomi_miwifi-r3
+
 define Device/youku_yk1
   SOC := mt7620a
   IMAGE_SIZE := 32448k
